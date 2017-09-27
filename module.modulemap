@@ -1,0 +1,5 @@
+module CLibSoundIO [system] {
+  header "/usr/local/include/soundio/soundio.h"
+  link "soundio"
+  export *
+}
